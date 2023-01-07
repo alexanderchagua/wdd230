@@ -50,15 +50,37 @@ h2{position:relative;
     padding: 0;
  }
 
-.card{
-    padding: 3px 10px;
-    border: PowderBlue 5px solid;
-    border-radius: 20px;
-width: 450px;}
-h3{background-color: blue;
-    height: 30px;
-    border-radius: 50px;}
-footer{background-color: blue;}
+.card{ 
+   
+    border: PowderBlue 1px solid;
+    border-radius: 6px;
+    padding:0;
+    width: 450px;
+  
+}
+h3{
+ background-color: blue;
+ position:relative;
+ bottom: 20px;
+ border-radius: 6px 6px 0px 0px;
+ padding: 10px;
+  }
+
+#cosas{
+    
+        display: grid;
+        grid-template-rows:  1fr;
+        grid-template-columns: 460px 300px ;
+        position: relative;
+        left: 230px;
+      
+    }
+  
+
+
+   
+footer{background-color: blue;
+}
 
 p{color: white;
 text-align: center;}
@@ -68,4 +90,3 @@ text-align: center;}
 .pe{width: 60px;
 
 }
-
