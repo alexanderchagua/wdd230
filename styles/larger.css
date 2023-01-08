@@ -12,7 +12,9 @@
 #background {
         display: none;
     }
-
+.cardfooter {
+    margin-top: 25px;
+}
 footer {
         margin-top: 25px;
     }
