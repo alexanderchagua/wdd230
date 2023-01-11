@@ -2,7 +2,7 @@ const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
 const list = document.querySelector('#list');
 
-button.addEventListener('click', function() {document.getElementById("button").innerHTML = ""; });
+
 button.addEventListener('click', () => {const myItem = input.value;
     input.value = '';
   
