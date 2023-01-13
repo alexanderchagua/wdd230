@@ -9,13 +9,21 @@
         padding: 15px;
     }
 main{display: grid;
-grid-template-columns: 1fr;}
+grid-template-columns: 1fr;
+width: 0.1px;
+grid-gap: 2px;
+
+    }
+   
+main section{position:relative;
+left: -219px;
+width:2px;}
 
 h2{position:relative;
-   left: 50px;}
+   left: -200px;}
 
+h1{font-size: 20px;}
 
-text-align: center;}
 #background {
         display: none;
     }
@@ -24,4 +32,5 @@ footer {
         margin-top: 25px;
     }
 }
+
 
