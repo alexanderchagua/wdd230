@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&display=swap');
 
-nav{background-color: black;
+nav{background-color: #b3e010;
+  
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -8,7 +9,7 @@ nav{background-color: black;
     gap: 1rem;
     padding: 1rem;
 }
-
+a{color:#090f2a}
 #icon{fill:aliceblue;
 }
 body{font-size: 16px;
@@ -38,9 +39,14 @@ align-items: center;
 
 main{width: 760px;
     display: contents;
+    flex-direction: column;
     justify-content: center;
     position: absolute;
+    padding: 20px;
+    margin: 1rem auto;
+    align-items: center;
 }
+
 
 h2{position:relative;
     left: 230px;
@@ -50,21 +56,24 @@ h2{position:relative;
     padding: 0;
  }
 
-.card{ 
-   
-    border: PowderBlue 1px solid;
-    border-radius: 6px;
-    padding:0;
-    width: 450px;
-  
+ .card {
+    box-shadow: 5px 5px 15px #001d2c;
+    border-radius: 20px;
+    margin: 1rem;
+    min-width: 400px;
+    
+
 }
-h3{
- background-color: blue;
- position:relative;
- bottom: 20px;
- border-radius: 6px 6px 0px 0px;
- padding: 10px;
-  }
+
+  h3 {
+    border-radius:19px 19px 0 0 ;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    background-color: #b3e010;
+    color:#090f2a;
+   
+}
 
 #cosas{
     
