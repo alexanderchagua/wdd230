@@ -16,33 +16,28 @@
   </head>
   <body>
     <nav>
-      
+      <div id="mode">
+        ☑️
+      </div>
+      <svg id="icon" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>
       <a href="https://www.linkedin.com/in/alexander-chagua-alvarez-20101b89/">LinkedIn</a>
       <a href="https://www.byui.edu/">BYU-Idaho</a>
-      <ul class="menu">
-        <li title="home">
-          <a href="#" id="menu-button"><svg id="icon" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg></a>
-        </li>
-        <li title="search">
-          <a href="#" class="active menu-item">🔎 Search</a>
-        </li>
-        <li title="pencil">
-          <a href="#" class="menu-item">✏️ Pencil</a>
-        </li>
-        <li title="about">
-          <a href="#" class="active menu-item">👋🏽 About</a>
-        </li>
-        <li title="archive">
-          <a href="#" class="menu-item">📑 Archive</a>
-        </li>
-        <li title="contact">
-          <a href="#" class="menu-item">🤙🏽 Contact</a>
-        </li>
-      </ul>
+     
     </nav>
     <header>
       <img class="myphoto" src="images/myphoto.png" alt="myphoto">
       <h1 class="name">Alexander H. Chagua Alvarez</h1>
+      <ul id="menu-to-toogle">
+        <li class='menu-list-item' title="search">
+            <a href="index.html" class="menu-item">Search</a>
+        </li>
+        <li class='menu-list-item' title="about">
+            <a href="index.html" class="menu-item">About</a>
+        </li>
+        <li class='menu-list-item' title="contact">
+            <a href="index.html" class="menu-item">Contact</a>
+        </li>
+    </ul>
     </header>
     <main>
       <h2>WDD230: Course Activity Portal</h2>
@@ -74,6 +69,8 @@
       <p>Last Modified:<p class="highlight" id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/menubutton.js"></script>
+    <script src="scripts/darkmode.js"></script>
     <script>
       const menubutton = document.querySelector("#menu-button");
       const menuitems = document.querySelectorAll(".menu-item");
