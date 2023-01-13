@@ -10,11 +10,13 @@ nav{background-color: #1c1d1b;
     padding: 1rem;
 }
 a{color:#026404}
+
 #icon{fill:aliceblue;
     max-width: 50px;
     margin: 10px;
     cursor: pointer;
 }
+
 #star{color:#b3e010;}
 body{font-size: 16px;
     line-height: 1.5;
