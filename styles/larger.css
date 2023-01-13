@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&display=swap');
 @media screen and (max-width: 600px) {
  
     nav, footer {
@@ -7,126 +8,20 @@
         display: block;
         padding: 15px;
     }
- 
+main{display: grid;
+grid-template-columns: 1fr;}
 
+h2{position:relative;
+   left: 50px;}
+
+
+text-align: center;}
 #background {
         display: none;
     }
-.cardfooter {
-    margin-top: 25px;
-}
+
 footer {
         margin-top: 25px;
     }
 }
 
-* {box-sizing:border-box}
-
-form {
-    margin: 0 auto;
-    width: 400px;
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-form li + li {
-    margin-top: 1em;
-}
-
-label {
-   
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-}
-
-input,
-textarea {
-    font: 1em sans-serif;
-    width: 300px;
-    box-sizing: border-box;
-    border: 1px solid #999;
-}
-
-input:focus,
-textarea:focus {
-    border-color: #000;
-} 
-textarea {
-    vertical-align: top;
-    height: 5em;}
-.button {
-    padding-left: 90px; 
-}
-
-button {
-    
-    margin-left: 0.5em;
-}
-
-#feedback {
-    background-color: antiquewhite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: .5em;
-    display: none;      
-}
-.moveDown {
-    margin-top: 3em;
-}
-
-
-.menu {
-	position: fixed;
-	top: 0;
-	right: 0;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	background: #f7f7f7;
-	z-index: 10;
-	overflow: hidden;
-	box-shadow: 2px 0 20px rgba(0, 0, 0, 0.26);
-}
-.menu li a {
-	display: block;
-	text-decoration: none;
-	text-align: center;
-	width: 12rem;
-	padding: 1rem;
-	color: #72739f;
-	position: relative;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-	transition: background 0.5s ease-in-out;
-}
-
-.menu li a:hover,
-.menu li:first-child a {
-	background: #267fdd;
-	color: #fff;
-}
-
-.active {
-	font-weight: 700;
-}
-
-li a.menu-item {
-	display: none;
-}
-
-li a.open {
-	display: flex;
-}
-
-.close::before {
-	content: " ";
-}
