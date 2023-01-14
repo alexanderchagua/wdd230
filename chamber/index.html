@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="" >
+    <meta name="description" content="This is Lima Chamber of Commerce" >
     <meta nombre="autor" contenido="Alexander Chagua Alvarez">
     <title>Home</title>
     <link rel="stylesheet" href="styles/base.css">
@@ -17,16 +17,35 @@
 </head>
 <body>
     <header>
+          
             <a id="logo" href="index.html">
             <img class="logow" src="images/logo1.png" alt="mylogo">
             </a>
             <nav>
+            
             <a href="index.html">Home</a>
             <a href="">Discover</a>
             <a href=""> Directory </a>
             <a href="">Join</a>
-            </nav>
+            <svg id="icon" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"></path></svg>
+            <ul id="menu-to-toogle">
+                <li class='menu-list-item' title="search">
+                    <a href="index.html" class="menu-item">Home</a>
+                </li>
+                <li class='menu-list-item' title="about us">
+                    <a href="index.html" class="menu-item">Discover</a>
+                </li>
+                <li class='menu-list-item' title="list">
+                    <a href="index.html" class="menu-item"> Directory</a>
+                </li>
+                <li class='menu-list-item' title="contact">
+                    <a href="index.html" class="menu-item">Join</a>
+                </li>
+        </nav>
     </header>
+        <nav class="news">
+        <a class='contac' href="contacts.html">GET IT NOW</a>
+        </nav>
        <div class="slider">
         <ul>
             <li><img src="images/digital-marketing-g36cad28f7_1920.jpg" alt=""></li>
@@ -34,16 +53,13 @@
             <li><img src="images/teamwork-g8b648fefe_1920.jpg" alt=""></li>
         </ul>
        </div>
-       <nav class="news">
-        <a class='contac' href="contacts.html">GET IT NOW</a>
-      </nav>
      <main>
-        <h1>Lima Chamber of CommerceL</h1>
-        <p>The Lima Chamber of Commerce's purpose is to boost the country's economy 
-            through its generation of work, facilitating business opportunities, providing 
-            assistance to different sectors within the Lima economy through our extensive experience.</p>
+        <h2>Lima Chamber of CommerceL</h2>
+        <p class="home">The Lima Chamber of Commerce's purpose is to boost the country's economy through its generation of work, facilitating business opportunities, providing assistance to different sectors within the Lima economy through our extensive experience.</p>
+      
         <section>
-            <h2>Events</h2>
+            <h3>Events</h3>
+
             <hr>
             <p>The International Market - Learn to Import Products
             Join this event and discover skills and methods of importing from different countries
@@ -53,13 +69,17 @@
             
         </section>
         <section>
-            <h2>Weather</h2>
+            <h3>Weather</h3>
             <hr>
-            <P></P>
+            <p>Lima Temperature 25°C°F</p>
+            
             
         </section>
-        <section>
-            <h2>Member spotlights</h2>
+        <section >
+            <h3> 🚚 transport the good friend</h3>
+            <p>contact@gooffrined.com</p>
+            <p>+519999999999</p>
+            <a href="">website</a>
             
         </section>
     </main>
@@ -102,9 +122,8 @@
             </div>
         </div>
     </footer>
-    <script src="scripts/getDates.js">
-
-    </script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menubutton.js"></script>
 </body>
 </html>
 
