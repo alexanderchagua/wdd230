@@ -84,8 +84,8 @@ nav a:hover{
         font-size: 18px;
         padding: 15px 30px; 
         border-radius: 5px;
-        position: relative;
-        bottom: 850px;
+        position: absolute;
+        bottom: auto;
         opacity: 0.8;
     }
     .contac:hover{
@@ -93,7 +93,11 @@ nav a:hover{
     color:#e76b74 
     }
 
-
+ main{position:relative;
+        bottom:520px;}
+    
+    main section{display:grid;
+               grid-template-columns: 1fr 1fr;}
 
 
 
@@ -126,3 +130,6 @@ footer p a:hover {
         
 footer .social img{padding-top: 15px;
         }
+
+.foots{display: grip;
+grid-template-columns: ;}
