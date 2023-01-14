@@ -1,11 +1,54 @@
-body{background-color:#e3e6c6 ;}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&family=Source+Sans+Pro&display=swap');
+body{background-color:#e3e6c6 ;
+    font-family: "Barlow", "Condensed";
+}
 
 header{
+
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #8ed081;
-    opacity: 0.9; 
+    opacity: 0.7;
+    margin:-18px;
+    font-family: "Roboto";
     }
+    #icon{fill:aliceblue;
+        max-width: 50px;
+        margin: 10px;
+        cursor: pointer;}
+        #menu-to-toogle {
+   
+            position: fixed;
+            top: 5rem;
+            right: 0;
+            list-style-type: none;
+            margin: 0;
+            margin-right: 30px;
+            padding: 0;
+            background: #f7f7f7;
+            z-index: 10;
+            overflow: hidden;
+            box-shadow: 5px 5px 15px #001d2c;;
+        }
+        
+        .menu-item {
+            display: block;
+            text-decoration: none;
+            width: 10rem;
+            padding: 1rem;
+            color: var(--accent-color);
+            position: relative;
+        }
+        li a.menu-item {
+            display: none;
+            
+            
+        }
+        li a.open {
+            display: flex;
+        }
+
+
 
 
 #logo{
@@ -17,10 +60,10 @@ header{
         width: 500px;
         }
 .logow{
-            width: 200px;
+            width: 180px;
             border-radius: 5px;
             position: relative;
-            left: 30px;
+            left: 40px;
             top: 1px;
             }
 nav {
@@ -60,7 +103,7 @@ nav a:hover{
 
 .slider img{
     width: 100%;
-    height: 50%;
+   
 }
 
 @keyframes change{
@@ -74,6 +117,8 @@ nav a:hover{
 
 .news{text-align: center;
     position: relative;
+    bottom: 50px;
+    font-family: "Roboto";
     top: 100px; }
 
     .contac{
@@ -93,13 +138,35 @@ nav a:hover{
     color:#e76b74 
     }
 
- main{position:relative;
-        bottom:520px;}
-    
-    main section{display:grid;
-               grid-template-columns: 1fr 1fr;}
+main{display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 800px;
+        margin: auto;
+        grid-gap: 20px;
+    font-family: "Roboto";}
+        
+main section:first-of-type{
+            grid-row: 2 / span 2;
+        }
+h2{position:relative;
+            left: 230px;
+            padding: 0;
+            
+         }
+section{background-color: #e3e6c6;
+    box-shadow: 5px 5px 15px #001d2c;
+    border-radius: 20px;
+    margin: 0.2rem;
+    min-width: 400px;
+	padding: 17px;}
 
-
+.home{
+    text-align: center;
+    position:relative;
+        bottom: -40px;
+        left: -290px;
+        margin: 50px;
+        padding: 0;}
 
 footer{
     background-color: #8ed081;
@@ -109,6 +176,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: "Roboto";
     }
     
 footer a{

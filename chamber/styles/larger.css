@@ -1,34 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&display=swap');
 @media screen and (max-width: 600px) {
  
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-main{display: grid;
-grid-template-columns: 1fr;
-width: 0.1px;
-grid-gap: 2px;
-
-    }
    
-main section{position:relative;
-left: -219px;
-width:2px;}
-
-h2{position:relative;
-   left: -200px;}
-
-h1{font-size: 20px;}
-
-#background {
-        display: none;
+     
+        nav, footer {
+            flex-direction: column;
+        }
+        nav a {
+            display: block;
+            padding: 15px;
+        }
+    
+    .logow{
+            width: 500px;
+            }
+    .logow{
+                width: 200px;
+                border-radius: 5px;
+                position: relative;
+                left: 50px;
+                top: 1px;
+                }
+    main{display: grid;
+    grid-template-columns: 1fr;
+    width: 0.1px;
+    grid-gap: 2px;
+    
+        }
+       
+    main section{position:relative;
+    left: -219px;
+    width:2px;}
+    
+    main section:first-of-type{grid-row: 3 / span 2;}
+    
+    .home{
+        text-align: center;
+        position:relative;
+            bottom: 50px;
+            left: -250px;
+            margin: 50px;
+            padding: 0;}
+    
+    h2{position:relative;
+       left: -200px;}
+       
+    
+    h1{font-size: 20px;}
+    
+    #background {
+            display: none;
+        }
+    
+    footer {
+            margin-top: 25px;
+        }
     }
+    
 
-footer {
-        margin-top: 25px;
-    }
-}
