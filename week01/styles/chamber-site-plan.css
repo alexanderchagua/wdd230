@@ -4,23 +4,23 @@
 
 :root {
 
-  --primary-color: #8ed081   ;
+  --primary-color: #BAFF24  ;
   --secondary-color: #53bfc2 ;
   --accent1-color: #e3e6c6;
-  --accent2-color: #df2929;
+  --accent2-color: #000000;
 
   
   --heading-font: "Barlow+Condensed";
   --paragraph-font: r;
 
  
-  --headline-color-on-white: #8ed081;  
+  --headline-color-on-white: #BAFF24;  
   --headline-color-on-color:#e3e6c6; 
-  --paragraph-color-on-white: #df2929; 
+  --paragraph-color-on-white: #000000; 
   --paragraph-color-on-color: #e3e6c6;
   --paragraph-background-color: #53bfc2  ;
-  --nav-link-color: #df2929;
-  --nav-background-color: #8ed081 ;
+  --nav-link-color: #000000;
+  --nav-background-color: #BAFF24 ;
   --nav-hover-link-color: #e3e6c6;
   --nav-hover-background-color: #53bfc2;
 }
