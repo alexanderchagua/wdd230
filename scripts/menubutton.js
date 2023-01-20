@@ -6,4 +6,3 @@ menubutton.addEventListener("click", () => {
 	menubutton.classList.toggle("close");
 });
 
-
