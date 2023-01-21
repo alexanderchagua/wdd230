@@ -212,3 +212,37 @@ footer .social img{padding-top: 15px;
 
 h4{text-align: center;
 color:#000000}
+
+.timeday {
+	position: absolute;
+	top: 470px;
+	left: 20px;
+	background: radial-gradient(#fff, #BAFF24);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.0rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	/* Buenas */
+}
+
+.timeday p {
+	margin: 0;
+	padding: 0.1rem;
+	font-weight: 900;
+	font-size: 1rem;
+	font-family:"Barlow", Condensed;
+}
+
+.im1:hover {box-shadow: 0 0 50px #333;}
+
+.im2{
+    opacity: .5;
+  }
+
+.im3{border-radius: 15px 150px;}
+
+.im4:hover {filter: blur(5px);}
+
+.im5:hover {filter: grayscale(80%);}
+
+.im6:hover {filter: saturate(180%);}
