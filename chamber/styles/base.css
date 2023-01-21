@@ -213,6 +213,10 @@ footer .social img{padding-top: 15px;
 h4{text-align: center;
 color:#000000}
 
+.h4{text-align: center;
+    color:#000000;
+    font-weight: 200px;}
+
 .timeday {
 	position: absolute;
 	top: 470px;
