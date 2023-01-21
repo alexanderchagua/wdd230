@@ -55,6 +55,13 @@
     footer {
             margin-top: 25px;
         }
+
+
+        .imagesd{display: grid;
+            grid-template-columns: 1fr;}
     }
+
+
+
     
 

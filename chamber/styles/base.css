@@ -202,3 +202,13 @@ footer p a:hover {
         
 footer .social img{padding-top: 15px;
         }
+
+.imagesd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    position: relative;    
+    left: -200px;}
+
+h4{text-align: center;
+color:#000000}
