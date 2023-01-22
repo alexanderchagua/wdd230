@@ -109,6 +109,32 @@ nav a:hover{
    
 }
 
+.slider2{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}               
+
+
+.slider2 ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: change 20s infinite;
+    animation-direction: alternate;
+}
+.slider2 li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider2 img{
+    width: 100%;
+    height: 500px;
+   
+}
+
 @keyframes change{
     0% {margin-left: 0;}
     20% {margin-left: 0;}
