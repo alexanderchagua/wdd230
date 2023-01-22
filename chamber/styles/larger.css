@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&display=swap');
 @media screen and (max-width: 600px) {
  
-   
+    .slider ul{display: none;
+              z-index:2;
+              }
      
         nav, footer {
             flex-direction: column;
@@ -52,18 +54,21 @@
             display: none;
         }
     
-    footer {
-            margin-top: 25px;
+    footer {position:relative;
+            bottom: -150px;
+            
+        
+        
         }
 
 
         .imagesd{display: grid;
             grid-template-columns: 1fr;
-        align-items: center;
-    justify-content: center;}
+            justify-content: center;
+        
+            bottom: -350px;}
     }
 
 
 
     
-
