@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&display=swap');
 @media screen and (max-width: 600px) {
  
-    .slider ul{display: none;
+    .slider2 ul{display: none;
               z-index:2;
               }
      
@@ -34,7 +34,9 @@
     left: -219px;
     width:2px;}
     
-    main section:first-of-type{grid-row: 3 / span 2;}
+    main section:first-of-type{grid-row: 3 / span 2;
+    align-items: center;
+justify-content: center;}
     
     .home{
         text-align: center;
