@@ -67,6 +67,20 @@
             justify-content: center;
         
             bottom: -350px;}
+
+    .im1:hover {box-shadow: 0 0 50px #333;}
+
+.im2{
+    opacity: .5;
+  }
+
+.im3{border-radius: 15px 150px;}
+
+.im4:hover {filter: blur(5px);}
+
+.im5:hover {filter: grayscale(80%);}
+
+.im6:hover {filter: saturate(180%);}
     }
 
 
