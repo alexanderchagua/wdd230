@@ -42,49 +42,57 @@
             </ul>
             </nav>
     </header>
-        <nav class="news">
-        <a class='contac' href="contacts.html">GET IT NOW</a>
-        </nav>
-       <div class="slider2">
-        <ul>
-            <li><img src="https://www.munlima.gob.pe/wp-content/uploads/2022/05/070220-Volumetrico-de-Lima-y-fachada-de-la-Municipalidad-de-Lima-scaled.jpg" alt="munilima"  loading="lazy"></li>
-            <li><img src="images/censo.webp" alt="censo" loading="lazy"></li>
-            <li><img src="images/lima.webp" alt="lima" loading="lazy"></li>
-        </ul>
-        <div class="timeday">
-        <p class="num">Number of Visits:<span class="visits"></span></p>
-        <p class="num">Amount Of time in days: <span class="day"></span></p>
-        </div>
-        </div>
      <main>
-        <div class="imagesd">
+        <form method="get" action="thankyou.html">
             <div>
-                <img class="im1" src="images/fruitsmed.webp" alt="fruit" loading="lazy">
-                <p class="h4">Food Business</p>
+            <label for="name">First Name</label>
+            <input type="text" id="first" name="firstname" required placeholder="Your first name" />
             </div>
             <div>
-                <img class="im2" src="images/horsemed.webp" alt="lima" loading="lazy">
-                <h4>Learn about the development of Lima</h4>
+            <label for="last">Last Name</label>
+            <input type="text" id="last" name="lastname" required placeholder="Your last name" />
             </div>
             <div>
-                <img class="im3" src="images/marketmed.webp" alt="market" loading="lazy">
-                <h4>Trade in the Markets</h4>
+            <label for="name">Title</label>
+            <input type="text" id="title" name="titlebusiness"  pattern="(?=.*[._%+-@/'])(?=.*[a-zA-Z0-9]).{7}" title="Must have at least seven
+            characters and that at least one of the characters is not alpha-numeric"/>
             </div>
             <div>
-                <img class="im4" src="images/othersmed.webp" alt="other" loading="lazy">
-                <h4>Urban Development</h4>
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email" required placeholder="ejmplo@mymail.com" />
             </div>
             <div>
-                <img class="im5" src="images/pexelmed.webp" alt="Tourism" loading="lazy">
-                <h4>Economy through Tourism</h4>
+            <label class="top"> Phone <input type="tel" name="phone" placeholder="1235551234"></label>
             </div>
             <div>
-                <img class="im6" src="images/cantidadmd.webp" alt="Current"  loading="lazy">
-                <h4>Current Population</h4>
+            <label for="business">business name/title</label>
+            <input type="text" id="business" name="businesstitle" required placeholder="name of business" />
             </div>
-
-        </div>
-
+            <div>
+            <p>These membership levels have increasing costs as well as increased benefits per level. Benefits might include special events, training, advertising (like spotlight positions on the home page), event discounts, etc.</p>
+            <label class="top">membership level
+                <select name="subject" >
+                     <option value="">Please Select</option>
+                    <option value="np">NP Membership is for non profit organizations and there is no fee</option>
+                    <option value="bm">Bronze Membership</option>
+                    <option value="sm">Silver Membership</option>
+                    <option value="gm">Gold Membership</option>
+                   
+            </label> 
+            </div>
+            <div>
+            <label for="description">Description:</label>
+            <textarea id="description" name="comments" required></textarea>
+            </div>
+            <div>
+                <input type="hidden" id="date" name="date" value="CurrentTime"> 
+               <input type="hidden" id="time" name="time" value="CurrentDate">
+            </div>
+            <div>
+            <button id="btnSubmit" type="submit">Send</button>
+            <input type="hidden" value="43aster">
+            </div>
+        </form>
     </main>
     <footer>
         <div>
@@ -127,8 +135,7 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menubutton.js"></script>
-    <script src="scripts/numervisit.js"></script>
-    <script src="scripts/amountftimeindays.js"></script>
+    
 </body>
 </html>
 

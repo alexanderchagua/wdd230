@@ -276,3 +276,14 @@ color:#000000}
 .im5:hover {filter: grayscale(80%);}
 
 .im6:hover {filter: saturate(180%);}
+
+main form{background-color: #53bfc2;
+
+}
+
+form{position:relative;
+    align-items: center;
+    justify-content: center;
+    bottom: -30px;
+    left: 50px;
+}
