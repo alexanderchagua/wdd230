@@ -83,8 +83,13 @@ justify-content: center;}
 .im5:hover {filter: grayscale(80%);}
 
 .im6:hover {filter: saturate(180%);}
-    }
-
-
-
     
+form{position:relative;
+    bottom: -40px;
+    left: -250px;
+}
+
+
+}
+
+

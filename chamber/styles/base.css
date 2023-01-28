@@ -280,8 +280,8 @@ color:#000000}
 
 
 main form{background-color: #53bfc2;
-		  border-radius: 20px;
-		  height: 715px;
+		  
+		  height: 730px;
 
 }
 
@@ -307,8 +307,8 @@ legend{text-align: center;
  grid-template-columns: 1fr 1fr;}
 
 #description{position:relative;
-			bottom:-100px;
-			left: -180px;
+			bottom:-80px;
+			left: -190px;
 			width: 180%;
        }
 
@@ -318,7 +318,7 @@ legend{text-align: center;
 		  height:30px;
 		  position:relative;
 		  left:90px;
-		  bottom: -70px;
+		  bottom: -40px;
 		  }
 
 .tex{text-align:justify;
@@ -329,7 +329,7 @@ legend{text-align: center;
 #option{width:150px;
 		padding:2px;
 		position:relative;
-		bottom:-15px;
+		bottom:-1px;
 		
 }
 #first:hover{background-color:grey;}
