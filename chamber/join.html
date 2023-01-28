@@ -77,16 +77,19 @@
             </fieldset>
             <div class="select">
             <p class="tex">These membership levels have increasing costs as well as increased benefits per level. Benefits might include special events, training, advertising (like spotlight positions on the home page), event discounts, etc.</p>
-            <label class="top">Membership level
+            <fieldset>
+            <label class="top">Membership level</label>
                 <select id="option" name="subject" >
                      <option value="">Please Select</option>
                     <option value="np">NP Membership is for non profit organizations and there is no fee</option>
                     <option value="bm">Bronze Membership</option>
                     <option value="sm">Silver Membership</option>
-                    <option value="gm">Gold Membership</option></label> 
+                    <option value="gm">Gold Membership</option>
+            </fieldset> 
             </div>
             <div>
-            <label for="description"><textarea id="description" name="comments" required>Write something here</textarea></label>
+            <label for="description"></label>
+            <textarea id="description" name="comments">Write something here</textarea>
             </div>
             <div>
                <input type="hidden" id="date2" name="date" value="CurrentTime"> 
