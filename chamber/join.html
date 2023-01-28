@@ -45,6 +45,7 @@
      <main>
         <form method="get" action="thankyou.html">
             <div>
+                <legend>Personal information</legend>
             <label for="name">First Name</label>
             <input type="text" id="first" name="firstname" required placeholder="Your first name" />
             </div>
@@ -54,24 +55,25 @@
             </div>
             <div>
             <label for="name">Title</label>
-            <input type="text" id="title" name="titlebusiness"  pattern="(?=.*[._%+-@/'])(?=.*[a-zA-Z0-9]).{7}" title="Must have at least seven
+            <input type="text" id="title" name="titlebusiness"  pattern="(?=.*[._%+-@/'])(?=.*[a-zA-Z0-9]).{7,12}" title="Must have at least seven
             characters and that at least one of the characters is not alpha-numeric"/>
             </div>
+            <legend>Contact information</legend>
             <div>
             <label for="email">Email address:</label>
             <input type="email" id="email" name="email" required placeholder="ejmplo@mymail.com" />
             </div>
             <div>
-            <label class="top"> Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+            <label class="top"> Phone <input id="phone" type="tel" name="phone" placeholder="1235551234"></label>
             </div>
             <div>
-            <label for="business">business name/title</label>
+            <label for="business">Business name/title</label>
             <input type="text" id="business" name="businesstitle" required placeholder="name of business" />
             </div>
-            <div>
-            <p>These membership levels have increasing costs as well as increased benefits per level. Benefits might include special events, training, advertising (like spotlight positions on the home page), event discounts, etc.</p>
-            <label class="top">membership level
-                <select name="subject" >
+            <div class="select">
+            <p class="tex">These membership levels have increasing costs as well as increased benefits per level. Benefits might include special events, training, advertising (like spotlight positions on the home page), event discounts, etc.</p>
+            <label class="top">Membership level
+                <select id="option" name="subject" >
                      <option value="">Please Select</option>
                     <option value="np">NP Membership is for non profit organizations and there is no fee</option>
                     <option value="bm">Bronze Membership</option>
@@ -85,7 +87,7 @@
             <textarea id="description" name="comments" required></textarea>
             </div>
             <div>
-                <input type="hidden" id="date" name="date" value="CurrentTime"> 
+               <input type="hidden" id="date" name="date" value="CurrentTime"> 
                <input type="hidden" id="time" name="time" value="CurrentDate">
             </div>
             <div>

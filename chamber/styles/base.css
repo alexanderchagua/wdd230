@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&family=Source+Sans+Pro&display=swap');
 body{background-color:#e3e6c6 ;
     font-family: "Barlow", "Condensed";
 }
@@ -252,7 +253,7 @@ color:#000000}
 	padding: 1.0rem;
 	box-shadow: 0 0 3rem #fff;
 	opacity: 0.75;
-	/* Buenas */
+
 }
 
 .timeday p {
@@ -277,13 +278,66 @@ color:#000000}
 
 .im6:hover {filter: saturate(180%);}
 
+
 main form{background-color: #53bfc2;
+		  border-radius: 20px;
+		  height: 715px;
 
 }
 
 form{position:relative;
-    align-items: center;
-    justify-content: center;
-    bottom: -30px;
-    left: 50px;
+    bottom: -40px;
+    left: 150px;
 }
+
+div{justify-content:center;
+    align-items: center;
+   margin:12px;}
+
+#first, #last, #title, #email, #phone, #business{
+	width: 380px;
+	margin:auto;
+
+}
+
+legend{text-align: center;
+	  padding: 9px;}
+
+.select{display: grid;
+ grid-template-columns: 1fr 1fr;}
+
+#description{position:relative;
+			bottom:-100px;
+			left: -180px;
+			width: 180%;
+       }
+
+
+
+#btnSubmit{width:200px;
+		  height:30px;
+		  position:relative;
+		  left:90px;
+		  bottom: -70px;
+		  }
+
+.tex{text-align:justify;
+	font-size: 13px;
+	padding:12px;}
+
+
+#option{width:150px;
+		padding:2px;
+		position:relative;
+		bottom:-15px;
+		
+}
+#first:hover{background-color:grey;}
+#last:hover{background-color:grey;}
+#title:hover{background-color:grey;}
+#email:hover{background-color:grey;}
+#phone:hover{background-color:grey;}
+#first:hover{background-color:grey;}
+#first:hover{background-color:grey;}
+#business:hover{background-color:grey;}
+
