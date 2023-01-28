@@ -281,7 +281,7 @@ color:#000000}
 
 main form{background-color: #53bfc2;
 		  
-		  height: 730px;
+		  height: 650px;
 
 }
 
@@ -307,7 +307,7 @@ legend{text-align: center;
  grid-template-columns: 1fr 1fr;}
 
 #description{position:relative;
-			bottom:-80px;
+			
 			left: -190px;
 			width: 180%;
        }
@@ -318,7 +318,7 @@ legend{text-align: center;
 		  height:30px;
 		  position:relative;
 		  left:90px;
-		  bottom: -40px;
+		  bottom: -20px;
 		  }
 
 .tex{text-align:justify;
@@ -329,9 +329,9 @@ legend{text-align: center;
 #option{width:150px;
 		padding:2px;
 		position:relative;
-		bottom:-1px;
-		
-}
+		bottom:150px;
+		left: 193px;
+
 #first:hover{background-color:grey;}
 #last:hover{background-color:grey;}
 #title:hover{background-color:grey;}
