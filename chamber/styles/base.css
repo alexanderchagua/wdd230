@@ -242,7 +242,7 @@ color:#000000}
 
 .h4{text-align: center;
     color:#000000;
-    font-weight: 200px;}
+    }
 
 .timeday {
 	position: absolute;
@@ -330,9 +330,10 @@ legend{text-align: center;
 		padding:2px;
 		position:relative;
 		bottom:150px;
-		left: 193px;
+		left: 193px;}
 
 #first:hover{background-color:grey;}
+
 #last:hover{background-color:grey;}
 #title:hover{background-color:grey;}
 #email:hover{background-color:grey;}
