@@ -2,7 +2,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const mykey = "843c1c38f9dbad88c862b6e4af7e9a92";
+const mykey = "fb48214618cad7e2b789beb97bb86188";
 const nameCity = "Trier"
 const unit = "imperial"
 const url = 'http://api.openweathermap.org/data/2.5/weather?q=${nameCity}&appid=${mykey}&units=${unit}';
