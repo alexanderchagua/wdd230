@@ -2,10 +2,8 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const mykey = "fb48214618cad7e2b789beb97bb86188";
-const nameCity = "Trier"
-const unit = "imperial"
-const url = 'http://api.openweathermap.org/data/2.5/weather?q=${nameCity}&appid=${mykey}&units=${unit}';
+
+const url = "https://api.openweathermap.org/data/2.5/weather?lat=-2.5480&lon=-106.6113&appid=fb48214618cad7e2b789beb97bb86188&q=Trier&units=imperial";;
 
 async function apiFetch() {
     try {
