@@ -1,0 +1,15 @@
+{
+    "lastNmae" : "chagua",
+    "DatetoLiveWard" : 2018,
+    "Numberofpeople" : 2,
+    "Visitedbybishopric" : 1,
+    "familymembers": [{
+        "name" : "Alexander Chagua",
+        "Gender" : "Male",
+        "Birthdate" : "10 /09 /1987"
+    },{
+        "name" : "Nancy Fernandez",
+        "Gender" : "Famele",
+        "Birthdate" : "02 /01 /1991"
+    }]
+}
