@@ -25,7 +25,7 @@ async function apiFetch() {
 
   function DisplayResult(data){
     currentTemp.innerHTML = "${data.main.temp}&deg;F";
-    const iconsrc = "https://openweathermap.org/img/w/${data.weather[0].icon}10d.png";
+    const iconsrc = "https://openweathermap.org/img/w/${data.weather[0].icon}04n.png";
     let desc = data.weather[0].description;
     weatherIcon.setAttribute("src",iconsrc);
     weatherIcon.setAttribute("alt",desc);
