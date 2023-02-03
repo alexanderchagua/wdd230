@@ -2,30 +2,22 @@
 
 const myurl = "https://github.com/alexanderchagua/wdd230/blob/main/index.json"
 
-var pelis = [
-    {
-        Nombre: "El señor de los anillos",
-        Genero: "Acción"
-    },
-    {
-        Nombre: "Regreso al Futuro",
-        Genero: "Acción"
-    },
-    {
-        Nombre: "Los increibles 2",
-        Genero: "Animación"
-    },
-];
-
-addLi();
-
-function addLi() {
-    var contenido;
-    for (i = 0; i < pelis.length; i++) {
-      var li = document.createElement("li");
-      var a = document.createElement("a");
-      contenido = "week1:" + pelis[i].Nombre + " || Genero: " + pelis[i].Genero;
-      a.appendChild(document.createTextNode(contenido));
-      document.querySelector("#listweek").appendChild(li).appendChild(a);
-    }
+var json ={
+    "week01": ["week01/holygrail.html", "week01/media-query.html"],
+    "week02": ["week02/design.html", "week02/bom.html"],
+    "week03": ["week03/images/landscape.webp", "week03/lazyload.html","https://codepen.io/Alexander-Cha-AL/pen/rNrpBad","week03/bom.html"],
+    "week04": ["https://codepen.io/alexanderchagua/pen/GRBxdaY", "week04/images/Combinators .png","week04/tablebuild.html","week04/form-start/index.html"],
+    "week05": ["https://codepen.io/alexanderchagua/pen/GRBYbKy", "week05/new-ward-members.json","week05/prophets.html","week05/weather.html"]
+    
 }
+
+
+var claseul = document.getElementById('arrayjson');
+var i;
+document.write("<ul>");
+for (i in json.week01) {
+  document.write(`<li><a href="${json.week01[i].url}">${json.week01[i].week01}</a></li>`);
+}
+
+
+document.write("</ul>");
