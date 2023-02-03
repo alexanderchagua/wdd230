@@ -332,3 +332,9 @@ table, th, td{
 
 caption{position:relative;
     bottom: -320px;}
+
+.weathers{background-color: rgb(91, 233, 233);
+	border-radius: 10px;
+	width: 20%;
+	text-align: center;}
+	
