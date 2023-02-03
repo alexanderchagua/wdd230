@@ -24,7 +24,7 @@ function addLi() {
     for (i = 0; i < pelis.length; i++) {
       var li = document.createElement("li");
       var a = document.createElement("a");
-      contenido = "week"[i]+":" + pelis[i].Nombre + " || Genero: " + pelis[i].Genero;
+      contenido = "week1:" + pelis[i].Nombre + " || Genero: " + pelis[i].Genero;
       a.appendChild(document.createTextNode(contenido));
       document.querySelector("#listweek").appendChild(li).appendChild(a);
     }
