@@ -1,68 +1,61 @@
-{
-    "members": [
-      {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone numbers": "23 December 1805",
-        "website ": "27 June 1844",
-        "membership": 14,
-        "experience": 1,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
-      },
-      {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone numbers": "23 December 1805",
-        "website ": "27 June 1844",
-        "membership": 14,
-        "experience": 1,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
-      },
-      {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone numbers": "23 December 1805",
-        "website ": "27 June 1844",
-        "membership": 14,
-        "experience": 1,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
-      },
-      {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone numbers": "23 December 1805",
-        "website ": "27 June 1844",
-        "membership": 14,
-        "experience": 1,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
-      },
-      {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone numbers": "23 December 1805",
-        "website ": "27 June 1844",
-        "membership": 14,
-        "experience": 1,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
-      },
-      {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone numbers": "23 December 1805",
-        "website ": "27 June 1844",
-        "membership": 14,
-        "experience": 1,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
-      },
-      {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone numbers": "23 December 1805",
-        "website ": "27 June 1844",
-        "membership": 14,
-        "experience": 1,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
-      }
-     
-    ]
-  }
+  {
+  "members": [
+    {
+      "name": "Alicorp S.A.C",
+      "adress": "Av. Argentina 4793, Carmen de La Legua - Reynoso 07006 - LIMA",
+      "phoneNumbers": "+51954545887",
+       "website": "https://www.alicorp.com.pe/pe/es/",
+      "imageurl": "https://www.alicorp.com.pe/static/images/logo-alicorp.png",
+      "membershipLvl" : "premium"
+    },
+    {
+      "name": "Gloria S.A.C",
+      "adress": "Av. República de Panamá Nº 2461, Urbanización Santa Catalina, distrito de La Victoria, provincia y departamento de Lima",
+      "phoneNumbers": "+51464564654",
+      "website": "https://www.gloria.com.pe/",
+      "imageurl": "https://www.gloria.com.pe/images/comunicado22_12_2022.jpg",
+      "membershipLvl" : "Premium"
+    },
+    {
+      "name": "BANCO FINACIERO",
+      "adress": "Av. Canto Grande 3556 - LIMA",
+      "phoneNumbers": "+01546465465465",
+      "website": "https://confianza.pe/",
+      "imageurl": "https://confianza.pe/img/2021/05/logo-blanco.png",
+      "membershipLvl" : "premium"
+    },
+    {
+      "name": "Interbank",
+      "adress": "Av. Villarán 140, La Victoria - Lima, Perú",
+      "phoneNumbers": "+884488788888",
+      "website": "https://www.intercorp.com.pe/es",
+      "imageurl": "https://www.intercorp.com.pe/img/logos/interbank.svg",
+      "membershipLvl" : "premium"
+    },
+    {
+      "name": ".Falabella S.A.C",
+      "adress": "Jockey Plaza, Av. Javier Prado Este 4200, Santiago de Surco 15023 - LIMA",
+      "phoneNumbers": "+1554855885",
+      "website": "https://tienda.falabella.com.pe",
+      "imageurl": "https://images.falabella.com/v3/assets/bltb5a8befb95ca5f20/bltb812a50a0ffcae37/63a3e4f8cbf72835bf8b57f1/logo-falabella.svg",
+      "membershipLvl" : "premium"
+    },
+    {
+      "name": "corporacion Azucarera del Peru S.A",
+      "adress": "VP3C+CHF, San Jacinto 02720",
+      "phoneNumbers": "+55464984949",
+      "website": "http://www.coazucar.com/esp/sanjacinto_nosotros.html",
+      "imageurl": "http://www.coazucar.com/esp/images/4sanjacinto.png",
+      "membershipLvl" : "Platinium"
+    },
+    {
+      "name": "Cosapi S.A",
+      "adress": "Av República de Colombia N° 791, San Isidro 15046 - LIMA",
+      "phoneNumbers": "+587554888",
+      "website": "https://www.cosapi.com.pe/site/index.aspx",
+      "imageurl": "https://www.cosapi.com.pe/Site/images/logo.jpg",
+      "membershipLvl" : "Premium"
+    }
+    
+  ]
+}
