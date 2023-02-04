@@ -23,18 +23,18 @@
                 left: 50px;
                 top: 1px;
                 }
-    main{display: grid;
+                .indexfisrt{display: grid;
     grid-template-columns: 1fr;
     width: 0.1px;
     grid-gap: 2px;
     
         }
        
-    main section{position:relative;
+        .indexfisrt section{position:relative;
     left: -219px;
     width:2px;}
     
-    main section:first-of-type{grid-row: 3 / span 2;
+    .indexfisrt section:first-of-type{grid-row: 3 / span 2;
     align-items: center;
 justify-content: center;}
     
@@ -89,6 +89,11 @@ form{position:relative;
     left: -250px;
 }
 
+.cards {
+	
+	display: grid;
+	grid-template-columns: 1fr ;
+}
 
 }
 
