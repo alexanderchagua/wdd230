@@ -15,24 +15,22 @@ async function jsonFetch(url) {
 }
 
 const displayMembers = (members) => {
-	const cards = document.querySelector("div.cards");
+	const cards = document.querySelector("article.grid");
 	cards.innerHTML = "";
    
 
 	    members.forEach((member) => {
-        let article = document.createElement("article")
-        article.classList.add('grids1');
-        article.innerHTML="";
+        
         
 		let card = document.createElement("section");
-        card.id="newPara";
+        card.classList.add('sectioncard');;
         let portrait = document.createElement("img");
         portrait.classList.add('imgem');
-		let p= document.createElement("p");
+		let p= document.createElement("h3");
         p.classList.add('names');
 		let stats = document.createElement("div");
 		stats.classList.add("stats");
-		let date = document.createElement("p")
+		let date = document.createElement("h3")
         date.classList.add("dates");
 	
 		let place = document.createElement("a");
@@ -61,9 +59,9 @@ const displayMembers = (members) => {
 		stats.appendChild(num);
 		card.appendChild(p);
 		card.appendChild(stats);
-		article.appendChild(card)
+		
 
-		cards.appendChild(article);
+		cards.appendChild(card);
 	});
 };
 
@@ -102,7 +100,7 @@ function getAgeAtDeathInYears(birthdate, deathdate) {
 	return Math.floor((death - birth) / (365 * 24 * 60 * 60 * 1000));
 }
 
-const gridbutton = document.querySelector("#grids1");
+const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
 
@@ -110,7 +108,7 @@ const display = document.querySelector("article");
 
 gridbutton.addEventListener("click", () => {
 	// example using arrow function
-	display.classList.add("grids1");
+	display.classList.add("grid");
 	display.classList.remove("list");
 });
 
@@ -118,5 +116,5 @@ listbutton.addEventListener("click", showList); // example using defined functio
 
 function showList() {
 	display.classList.add("list");
-	display.classList.remove("grids1");
+	display.classList.remove("grid");
 }

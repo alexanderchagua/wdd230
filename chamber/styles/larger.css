@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&display=swap');
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
  
     .slider2 ul{display: none;
               z-index:2;
@@ -89,7 +89,7 @@ form{position:relative;
     left: -250px;
 }
 
-.cards {
+.grid {
 	
 	display: grid;
 	grid-template-columns: 1fr ;
