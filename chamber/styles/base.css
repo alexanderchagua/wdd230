@@ -307,7 +307,7 @@ legend{text-align: center;
 
 #description{position:relative;
 			
-			left: -190px;
+			left: -180px;
 			width: 180%;
        }
 
@@ -328,7 +328,7 @@ legend{text-align: center;
 #option{width:150px;
 		padding:2px;
 		position:relative;
-		bottom:150px;
+		bottom:120px;
 		left: 193px;}
 
 #first:hover{background-color:grey;}
