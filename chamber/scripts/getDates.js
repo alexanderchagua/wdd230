@@ -15,3 +15,6 @@ var d = new Date();
     var mins = d.getMinutes();
     var seconds = d.getSeconds();
     document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
+
+
+

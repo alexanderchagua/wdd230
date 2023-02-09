@@ -520,7 +520,10 @@ article,
     
   
     
-    
+    .weatherscamera{background-color: #BAFF24;
+        border-radius: 10px;
+        width: 150%;
+        text-align: center;}
   
   
     
