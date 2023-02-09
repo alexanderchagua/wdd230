@@ -179,7 +179,7 @@ nav a:hover{
             grid-row: 2 / span 2;
         }
 h2{position:relative;
-            left: 230px;
+           
             padding: 0;
             
          }
@@ -194,7 +194,7 @@ section{background-color: #e3e6c6;
     text-align: center;
     position:relative;
         bottom: -40px;
-        left: -290px;
+     
         margin: 50px;
         padding: 0;}
 
@@ -516,11 +516,7 @@ article,
 	
     }
     
-    img {
-        height: 75px;
-        max-width: 90%; /* Images are jerks - Seattle*/
-    }
-    
+  
     
     
   
