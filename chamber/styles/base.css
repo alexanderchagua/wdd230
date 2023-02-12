@@ -373,7 +373,7 @@ legend{text-align: center;
 
 
 
-section {
+.sectioncard {
 	margin: 1rem;
 	padding: 1rem;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -388,7 +388,7 @@ section {
 }
 
 
-section img {
+.sectioncard img {
 	width: 240px;
 	height: auto;
 	border: 2px solid #fff;
@@ -520,10 +520,15 @@ article,
     
   
     
-    .weatherscamera{background-color: #BAFF24;
+    .weatherscamera{background-color: #bed;
         border-radius: 10px;
-        width: 150%;
+        width: 50%;
         text-align: center;}
   
+.weahterbox{
+    display: flex;
+    flex-direction: row;
+    background-color: #BAFF24;
+}
   
     
