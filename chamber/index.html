@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is Lima Chamber of Commerce" >
     <meta name="author" content="Alexander Chagua Alvarez">
-    <title>Home</title>
+    <title>Home Chamber of Lima</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/logo.ico">
@@ -56,7 +56,7 @@
         <h2>Lima Chamber of CommerceL</h2>
         <p class="home">The Lima Chamber of Commerce's purpose is to boost the country's economy through its generation of work, facilitating business opportunities, providing assistance to different sectors within the Lima economy through our extensive experience.</p>
       
-        <section>
+        <section class="weahterbox">
             <h3>Events</h3>
 
             <hr>
@@ -67,23 +67,47 @@
             <hr>
             
         </section>
-        <section>
-            <h3>Weather</h3>
+        <section class="weahterbox">
+            
+            <h3>Current Weather</h3>
             <hr>
             <div class="weatherscamera">
             <p> Lima - PE</p>
-            <p > <span id="current-temp"></span></p>
-            <img id="weather-icon" src="" alt="">
-            <figcaption><figcaption>
+            <p id="name"> </p>
+            <p > <span id="current-temp1"></span></p>
+            <img id="weather-icon1" src="" alt="">
+            <p id="ficaption1"><p>
             </div>
+            <hr>
+            <h3>Three (3) day temperature forecast</h3>
+            <hr>
+            <div class="weatherscamera">
+                <p> Lima - PE</p>
+                <p > <span id="current-temp2"></span></p>
+                <img id="weather-icon2" src="" alt="">
+                <p id="ficaption2"></p>
+                </div>
+                <div class="weatherscamera">
+                <p> Lima - PE</p>
+                <p > <span id="current-temp3"></span></p>
+                <img id="weather-icon3" src="" alt="">
+                <p id="ficaption3"><p>
+                </div>
+                <div class="weatherscamera">
+                    <p> Lima - PE</p>
+                    <p > <span id="current-temp4"></span></p>
+                    <img id="weather-icon4" src="" alt="">
+                    <p id="ficaption4"><p>
+                    </div>
             
             
         </section>
-        <section >
-            <h3> 🚚 transport the good friend</h3>
-            <p>contact@gooffrined.com</p>
-            <p>+519999999999</p>
-            <a href="">website</a>
+        <section class="weahterbox">
+            <img id="imagenevent" src="" alt="members">
+            <h3 id="evnetname"></h3>
+            <p id="eventspt"></p>
+            <p id="eventphone"></p>
+            <a id="eventweb" href=""></a>
             
         </section>
     </main>
@@ -128,7 +152,8 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menubutton.js"></script>
-    <script src="scripts/peruweather.js"></script>
+    <script src="scripts/weather3day.js"></script>
+    <script src="scripts/homejson.js"></script>
 </body>
 </html>
 
