@@ -531,19 +531,39 @@ article,
     background-color: #BAFF24;
 }
   
-
-.sectioncard{
+.bannerwed{
 
     background-color:#bed;
-    max-width: 100%;
+    width: 100% ;
     height: 150px;
     text-align: center;
-	position:relative;
-	bottom:-10px;
-	left: -9px;
+    margin: 9px;
+    position:relative;
+    bottom:-10px;
+    left: -8px;
     font-family:"Roboto";
-	
-}
+    padding: 50px;
+    
+    }
 
 #had{position:relative;
-    z-index:1;}
+z-index:1;}
+
+
+#spotlight{display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1rem;
+	font-family: "Roboto";
+		
+
+   }
+    
+
+   #spotlight .sectioncard{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #spotlight .sectioncard > * {
+        margin: 0.1rem;
+    }
