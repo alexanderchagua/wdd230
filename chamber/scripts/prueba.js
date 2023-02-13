@@ -46,7 +46,7 @@ const displayMembers = (members) => {
         
         
 		let card = document.createElement("section");
-        card.classList.add('sectioncard');;
+        card.classList.add('sectioncard');
         let portrait = document.createElement("img");
         portrait.classList.add('imgem');
 		let p= document.createElement("h3");

@@ -1,0 +1,6 @@
+.sectioncard{
+    background-color: aqua;
+    max-width: 100%;
+    border: 15px solid red;
+    text-align: center;
+}

@@ -531,4 +531,16 @@ article,
     background-color: #BAFF24;
 }
   
-    
+
+.sectioncard{
+
+    background-color:#bed;
+    max-width: 100%;
+    height: 150px;
+    text-align: center;
+	position:relative;
+	bottom:-10px;
+	left: -9px;
+    font-family:"Roboto";
+	
+}
