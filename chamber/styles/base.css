@@ -4,7 +4,7 @@ body{background-color:#e3e6c6 ;
     font-family: "Barlow", "Condensed";
 }
 
-header{
+#had{
 
     display: grid;
     grid-template-columns: 150px auto;
@@ -567,3 +567,14 @@ z-index:1;}
     #spotlight .sectioncard > * {
         margin: 0.1rem;
     }
+
+    .spt{
+       
+		position:relative;
+		left:80px;
+    }
+
+.dates{
+	position:relative;
+	left:80px;
+}

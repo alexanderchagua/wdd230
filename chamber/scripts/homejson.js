@@ -28,6 +28,8 @@ const displayMembers = (members) => {
         let portrait = document.createElement("img");
         portrait.classList.add('imgem');
 		let p2 = document.createElement("p")
+		p2.classList.add("spt");
+
 		let stats = document.createElement("div");
 		stats.classList.add("stats");
 		let date = document.createElement("h3")

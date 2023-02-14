@@ -1,101 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&display=swap');
-@media screen and (min-width: 400px) and (max-width: 700px) {
- 
-    .slider2 ul{display: none;
-              z-index:2;
-              }
-     
-        nav, footer {
-            flex-direction: column;
-        }
-        nav a {
-            display: block;
-            padding: 15px;
-        }
-    
-    .logow{
-            width: 500px;
-            }
-    .logow{
-                width: 200px;
-                border-radius: 5px;
-                position: relative;
-                left: 50px;
-                top: 1px;
-                }
-                .indexfisrt{display: grid;
-    grid-template-columns: 1fr;
-    width: 0.1px;
-    grid-gap: 2px;
-    
-        }
-       
-        .indexfisrt section{position:relative;
-    left: -219px;
-    width:2px;}
-    
-    .indexfisrt section:first-of-type{grid-row: 3 / span 2;
-    align-items: center;
-justify-content: center;}
-    
-    .home{
-        text-align: center;
-        position:relative;
-            bottom: 50px;
-            left: -230px;
-            margin: 50px;
-            padding: 0;}
-    
-    h2{position:relative;
-       left: -170px;}
-       
-    
-    h1{font-size: 20px;}
-    
-    #background {
-            display: none;
-        }
-    
-    footer {position:relative;
-            bottom: -150px;
-            
+@media screen and (max-width: 400px) {
+ header{display: block;}
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+main{display: grid;
+grid-template-columns: 1fr;
+width: 0.1px;
+grid-gap: 2px;
+justify-content: center;
+align-items: center;
+
+    }
+   
+    main section{position:relative;
+
+        width:2px;}
         
-        
-        }
+        h2{position:relative;
+           left: -0.2px;}
 
+h1{font-size: 20px;}
 
-        .imagesd{display: grid;
-            grid-template-columns: 1fr;
-            justify-content: center;
-        
-            bottom: -350px;}
+#background {
+        display: none;
+    }
 
-    .im1:hover {box-shadow: 0 0 50px #333;}
-
-.im2{
-    opacity: .5;
-  }
-
-.im3{border-radius: 15px 150px;}
-
-.im4:hover {filter: blur(5px);}
-
-.im5:hover {filter: grayscale(80%);}
-
-.im6:hover {filter: saturate(180%);}
-    
-form{position:relative;
-    bottom: -40px;
-    left: -250px;
-}
-
-.grid {
-	
-	display: grid;
-	grid-template-columns: 1fr ;
-}
-
-
+footer {
+        margin-top: 25px;
+    }
 }
 
 
