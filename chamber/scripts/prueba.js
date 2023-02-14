@@ -93,32 +93,3 @@ getMembers();
 // buttons
 
 
-
-document.querySelector("#nonus").addEventListener("click", () => {
-	getMembers("nonus");
-});
-
-document.querySelector("#ten").addEventListener("click", () => {
-	getMembers("ten");
-});
-
-document.querySelector("#childs").addEventListener("click", () => {
-	getMembers("childs");
-});
-
-document.querySelector("#childl").addEventListener("click", () => {
-	getMembers("childl");
-});
-
-document.querySelector("#old").addEventListener("click", () => {
-	getMembers("old");
-});
-
-function getAgeAtDeathInYears(birthdate, deathdate) {
-	let birth = new Date(birthdate);
-	let death = new Date(deathdate);
-	if (deathdate === null) {
-		death = new Date();
-	}
-	return Math.floor((death - birth) / (365 * 24 * 60 * 60 * 1000));
-}
