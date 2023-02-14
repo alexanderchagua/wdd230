@@ -5,15 +5,10 @@ document.getElementById("lastModified").innerHTML = text;
 
 
 var d = new Date();
-
-    // Set the value of the "date" field
-
-
-    // Set the value of the "time" field
-    var hours = d.getHours();
-    var mins = d.getMinutes();
-    var seconds = d.getSeconds();
-    document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
+var hours = d.getHours();
+var mins = d.getMinutes();
+var seconds = d.getSeconds();
+document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
 
 
 
