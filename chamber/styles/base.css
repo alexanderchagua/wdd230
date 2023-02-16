@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&family=Source+Sans+Pro&display=swap');
+
 body{background-color:#e3e6c6 ;
     font-family: "Barlow", "Condensed";
 }
@@ -12,6 +12,7 @@ body{background-color:#e3e6c6 ;
     opacity: 0.7;
     margin:-18px;
     font-family: "Roboto";
+    
     }
 
 #icon{fill:aliceblue;
@@ -34,7 +35,7 @@ body{background-color:#e3e6c6 ;
         }
         
         .menu-item {
-            display: block;
+            
             text-decoration: none;
             width: 10rem;
             padding: 1rem;
@@ -554,6 +555,7 @@ z-index:1;}
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1rem;
 	font-family: "Roboto";
+    
 		
 
    }

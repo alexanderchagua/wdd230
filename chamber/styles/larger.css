@@ -1,38 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&display=swap');
-@media screen and (max-width: 400px) {
- header{display: block;}
+@media screen and (max-width: 600px) and (min-width: 400px) {
+
+
+ .logow{position:relative;
+       left: 120px;
+       width:230px
+       }
     nav, footer {
         flex-direction: column;
     }
-    nav a {
+
+  nav a {
         display: block;
         padding: 15px;
     }
-main{display: grid;
-grid-template-columns: 1fr;
-width: 0.1px;
-grid-gap: 2px;
-justify-content: center;
-align-items: center;
 
-    }
+ h2{position:relative;
+    left: 20%;
+    padding: 5px;
+   font-family:"Roboto";}
    
-    main section{position:relative;
-
-        width:2px;}
-        
-        h2{position:relative;
-           left: -0.2px;}
-
-h1{font-size: 20px;}
-
-#background {
-        display: none;
-    }
-
-footer {
-        margin-top: 25px;
-    }
+.home{
+ text-align: center;
+ font-family:"Roboto";
 }
+
+
+ .weahterbox{
+    display: flex;
+    flex-direction: row;
+    background-color: #BAFF24;
+  font-family:"Roboto";
+    
+}
+ 
+    .weatherscamera{background-color: #bed;
+        border-radius: 10px;
+        width: 11%;
+        text-align: center;
+         font-family:"Roboto";}
+
+ #spotlight{display: grid;
+	grid-template-columns: 1fr ;
+	grid-gap: 1rem;
+	font-family: "Roboto";	
+
+}
+.imagesd{
+    display: grid;
+    grid-template-columns: 1fr ;
+	position:relative;
+	left: 20%;
+	bottom: -190px;
+    
+       
+    }
+
+.slider2{display:none}
+
+.timeday{z-index:1
+
+	}
+
+ }   
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
 
 
