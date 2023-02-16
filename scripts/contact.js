@@ -33,12 +33,6 @@ function checkSame() {
 
 const form = document.getElementById("transactionForm");
 
-form.addEventListener("submit", function(event){
-    event.preventDefault();
-let transactionFormdata = new FormData(form);
-
-insertRowInTransactionTable(transactionFormdata)
-})
 
 
 function insertRowInTransactionTable(transactionFormdata){
@@ -66,6 +60,3 @@ newtypwcellreff.textContent = transactionFormdata.get("")
 }
 
 
-let x = getElementById("fullname")
-
-document.getElementById("name").innerHTML = x

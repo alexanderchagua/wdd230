@@ -104,13 +104,13 @@ align-items: center;
 }
 
 
-main{display: grid;
+#firstmain{display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 800px;
     margin: auto;
     grid-gap: 20px;}
     
-main section:first-of-type{
+#firstmain section:first-of-type{
         grid-row: 2 / span 2;
     }
     
@@ -121,7 +121,7 @@ hr{width: 500px;
         align-items: center;}  
 
 
-h2{position:relative;
+#portal{position:relative;
     left: 230px;
     padding: 0;
     
