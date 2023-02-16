@@ -2,15 +2,15 @@
 @media screen and (max-width: 600px) and (min-width: 400px) {
 
 
- .logow{position:relative;
-       left: 120px;
-       width:230px
-       }
-    nav, footer {
-        flex-direction: column;
-    }
+.logow{position:relative;
+left: 120px;
+width:230px
+}
+nav, footer {
+flex-direction: column;
+}
 
-  nav a {
+nav a {
         display: block;
         padding: 15px;
     }
@@ -62,21 +62,12 @@
 
 	}
 
- }   
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
+.grid{ display: grid;
+    grid-template-columns: 1fr ;
+}	
+.indexfisrt{position:relative;
+		left:-70px;}
+}   
 
 
 
