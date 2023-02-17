@@ -26,7 +26,7 @@ fetch(myUrl2)
 
 
 function displayData(data3){
-    console.log(data3)
+   
     for(let i in data3){
         i=0,i<data3, i++
    
