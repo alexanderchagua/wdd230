@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,100&family=Roboto:wght@500&display=swap');
-@media screen and (max-width: 600px) and (min-width: 400px) {
+@media screen and (max-width: 600px)  {
 
 
 .logow{position:relative;
@@ -10,13 +10,25 @@ nav, footer {
 flex-direction: column;
 }
 
+.logow{position:relative;
+    left: 120px;
+    width:230px
+    }
+    nav, footer {
+    flex-direction: column;
+    }
+    
+    #naver{display:none;}
+    #icon{position:relative;
+         left:170px;
+         bottom:-20px;}
 nav a {
         display: block;
         padding: 15px;
     }
 
  h2{position:relative;
-    left: 20%;
+    left: 10%;
     padding: 5px;
    font-family:"Roboto";}
    
@@ -68,58 +80,8 @@ nav a {
 .indexfisrt{position:relative;
 		left:-70px;}
 
-
-        .logowx{position:relative;
-            left: 20px;
-            width:230px
-            }
-            #naver a{display:none;}
-            #icon{position:relative;
-                 left:350px;
-                 bottom:50px}
-                        #icon{
-                fill:aliceblue;
-                    max-width: 50px;
-                    margin: 10px;
-                    cursor: pointer;}
-            
-            #menu-to-toogle {
-                        position: fixed;
-                        top: 5rem;
-                        right: 0;
-                        list-style-type: none;
-                        margin: 0;
-                        margin-right: 30px;
-                        padding: 0;
-                        background: #f7f7f7;
-                        z-index: 10;
-                        overflow: hidden;
-                        box-shadow: 5px 5px 15px #001d2c;;
-                    }
-                    
-                    .menu-item {
-                        
-                        text-decoration: none;
-                        width: 10rem;
-                        padding: 1rem;
-                        color: var(--accent-color);
-                        position: relative;
-                    }
-            li a.menu-item {
-                        display: none;
-                        
-                        
-                    }
-            li a.open {
-                        display: flex;
-                    }
-            
-
-
-
-
-
-
+        #menu-to-toogle {position:absolute} ; 
+       
 }   
 
 

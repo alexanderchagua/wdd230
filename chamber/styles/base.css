@@ -15,11 +15,13 @@ body{background-color:#e3e6c6 ;
     
     }
 
-#icon{
-    fill:aliceblue;
+#icon{fill:aliceblue;
         max-width: 50px;
         margin: 10px;
-        cursor: pointer;}
+        cursor: pointer;
+        position:relative;
+        left:500%;
+        bottom:150px;}
 
 #menu-to-toogle {
             position: fixed;
