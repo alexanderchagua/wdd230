@@ -77,6 +77,19 @@ nav a {
 .grid{ display: grid;
     grid-template-columns: 1fr ;
 }	
+
+.list .sectioncard img {
+    display: none; /* smaller viewports only */
+}
+
+
+.list .sectioncard {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0.25rem;
+}
+
 .indexfisrt{position:relative;
     left:-150px;}
 
