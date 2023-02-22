@@ -1,5 +1,5 @@
 const url =
-	"https://127.0.0.1:5501/chamber/data/members.json";
+	"http://127.0.0.1:5501/chamber/data/members.json";
 
 const getMembers = async () => {
 	let members = await jsonFetch(url);
